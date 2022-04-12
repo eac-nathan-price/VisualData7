@@ -17,7 +17,7 @@ export class AppComponent {
       .hue(2)
       .gamma(1.875)
       .lightness([0.7, 0.4])
-      .scale() // convert to chroma.scale
+      .scale()
       .correctLightness()
       .colors(10);
   }
